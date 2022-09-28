@@ -4,6 +4,6 @@
 <h2>
 연락처
 </h2>
-kkh061101@naver.com<br>
-구름미각#0067<br>
+E-mail : kkh061101@naver.com<br>
+Discord : 구름미각#0067<br>
 </div>
