@@ -5,7 +5,7 @@
 <hr>
 <img src = "./999contributions.png" title="Congratulations My 999 Contributions!!!"/>
 <h2>
-연락처 Contact me
+Bug report
 </h2>
 E-mail : kkh061101@naver.com<br>
 Discord : 구름미각#0067<br>
