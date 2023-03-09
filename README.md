@@ -8,7 +8,7 @@
   <span><a href='https://ko.javascript.info/'>Javascript 관련 문서 보러가기</a></span><br/>
   </div>
 <hr>
-<img src = "./999contributions.png" title="Congratulations My 999 Contributions!!!" alt='My 999th Contribute'/>
+<img src = "./999contributions.png" title="Congratulations My 999 Contributions!!!" alt='My 999th Contribute in 2022'/>
 <h2>
 Bug report
 </h2>
