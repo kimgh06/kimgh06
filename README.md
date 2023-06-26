@@ -18,5 +18,5 @@
 Bug report
 </h2>
 E-mail : kkh061101@naver.com<br>
-Discord : 구름미각#0067<br>
+Discord : kimgh06<br>
 </div>
