@@ -4,7 +4,7 @@
 <p><b>보이는게 다가 아닙니다. 그것을 자세히 바라봐야 합니다.</b></p>
   <div align=left>
     <ul>
-      <li><span><a href='https://super-apartment-c46.notion.site/79e7e230e87347d8b7d9af9ddff41656'>나의 포트폴리오</a></span></li>
+      <li><span><a href='https://kimgh06.notion.site/79e7e230e87347d8b7d9af9ddff41656'>나의 포트폴리오</a></span></li>
       <li><span><a href='https://ko.javascript.info/'>Javascript 관련 문서 보러가기</a></span></li>
       <li><a href='https://ko.reactjs.org/docs/accessibility.html'>React 공식 문서 보러가기</a></li>
       <ul>
