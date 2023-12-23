@@ -1,6 +1,6 @@
 # 반갑습니다. Welcome.
 <div align=center>  
-<span>사용자가 쉽게 이해할 수 있는 UI를 만들 수 있어야 한다는게 제 신조입니다. My client would be understood my UI.</span><br/>
+<span>사용자가 쉽게 이해할 수 있는 UI를 만들 수 있어야 한다는게 제 신조입니다. My client might be understood my UI.</span><br/>
 <p><b>보이는게 다가 아닙니다. 그것을 자세히 바라봐야 합니다. A view is nothing. Watch that details.</b></p>
   <div align=left>
     <ul>
