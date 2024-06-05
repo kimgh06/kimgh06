@@ -3,8 +3,8 @@
   <a href="https://github.com/devxb/gitanimals">
 <img
   src="https://render.gitanimals.org/farms/kimgh06"
-  width="600"
-  height="300"
+  width="800"
+  height="400"
 />
 </a>
 <p><b>보이는게 다가 아닙니다. 그것을 자세히 바라봐야 합니다. A view is nothing. Watch that details.</b></p>
