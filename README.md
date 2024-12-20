@@ -15,7 +15,7 @@
 </div>
   
 ## On-Serving
-- Minesweeper Online (https://gamultong.github.io/minesweeper-client/) 2024.11 ~
+- Gamulpung, The Infinity Multiplay Minesweeper (https://gamultong.github.io/gamulpung-client/) 2024.11 ~
 ## Served
 - Freetify (https://freetify.vercel.app/) ~ 2024.5.
 <!--<img src = "./image.png" title="Congratulations My 999 Contributions!!!" alt='My 999th Contribute in 2022'/>-->
