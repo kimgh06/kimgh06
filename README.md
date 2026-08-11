@@ -13,14 +13,16 @@ I like to do projects alone or with others for useful and funny.
 - [DEV-BLOG](https://velog.io/@kimgh06/posts)
   
 ## On-Serving.
-- Gamulpung, The Infinity Multiplay Minesweeper Game Project. (https://gamultong.github.io/gamulpung-client/) 2024.11 ~ (present)
 - Thask, maps your product as a living graph (https://github.com/kimgh06/Thask) https://thask.kimgh06.com 2026.3. ~ (present)
 - Rosarium, Practice for Typing how to pray the Rosarium (https://github.com/kimgh06/typing_rosary) https://rosarium.kimgh06.com 2026.7. ~ (present)
+- Three Slicer, Browser slicer for 3d printing. (https://github.com/kimgh06/Web_Three_Slicer) https://slicer.kimgh06.com 2026.8. ~ (present)
 
 
 ## Served Before.
 - Freetify (https://freetify.vercel.app/) ~ 2024.5.
+- Gamulpung, The Infinity Multiplay Minesweeper Game Project. (https://gamultong.github.io/gamulpung-client/) 2024.11 ~ 2026.5.
 <!--<img src = "./image.png" title="Congratulations My 999 Contributions!!!" alt='My 999th Contribute in 2022'/>-->
+
 ## Bug report
 E-mail : kkh061101@naver.com<br/>
 Discord : kimgh06<br/>
