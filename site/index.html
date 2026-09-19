@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>김강현 kimgh06</title>
+<meta name="description" content="김강현(kimgh06)이 만들고 운영하는 것들">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='330 0 460 460'%3E%3Crect x='330' y='0' width='460' height='460' rx='96' fill='%23161513'/%3E%3Cpath d='M740 50L380 410H540L715 238M557 233H715' fill='none' stroke='%23fbfaf7' stroke-width='40' stroke-linecap='square'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --paper:#fbfaf7;--ink:#161513;--soft:#5d5a54;--rule:#d9d5cc;--mark:#c2410c;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#141312;--ink:#eeece6;--soft:#a29e95;--rule:#34322e;--mark:#fb923c}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font:17px/1.75 "Pretendard Variable",Pretendard,"Apple SD Gothic Neo",sans-serif;
+  word-break:keep-all;-webkit-font-smoothing:antialiased}
+main{max-width:760px;margin:0 auto;padding:72px 20px 96px}
+a{color:var(--mark);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+h1,h2{font-weight:700;letter-spacing:-.02em}
+h1{font-size:44px;line-height:1.2;margin:0 0 28px}
+h2{font-size:26px;margin:88px 0 20px;padding-top:20px;border-top:2px solid var(--ink)}
+p{margin:0 0 16px}
+.lead{font-size:20px;line-height:1.7}
+.soft{color:var(--soft)}
+/* 경력 */
+.job{margin:0 0 40px}
+.job h3{font-size:19px;margin:0}
+.job .when{color:var(--soft);font-size:15px;margin:2px 0 12px}
+.job ul{margin:0;padding-left:20px}
+.job li{margin:6px 0}
+.case{margin:0 0 22px}
+.case h4{font-size:17px;margin:0 0 6px}
+.case p{margin:0 0 6px}
+.case .q{color:var(--soft)}
+/* 운영 중 */
+figure{margin:0 0 56px}
+figure img{width:100%;display:block;border-radius:4px}
+figcaption{margin-top:14px}
+figcaption b{font-size:19px}
+/* 지난 작업 */
+.log{width:100%;border-collapse:collapse;font-size:16px}
+.log td{padding:10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.log td:first-child{width:92px;color:var(--soft);font-variant-numeric:tabular-nums;white-space:nowrap}
+.log td:nth-child(2){width:190px;padding-right:16px}
+footer{margin-top:96px;padding-top:28px;border-top:2px solid var(--ink);font-size:15px}
+.foot{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap}
+.sign{display:block;width:150px;height:auto;color:var(--ink);margin-bottom:10px}
+.who{margin:0;font-weight:600}
+.contact{display:grid;grid-template-columns:auto 1fr;gap:6px 20px;margin:0;align-content:start}
+.contact dt{color:var(--soft)}
+.contact dd{margin:0}
+.fine{margin:36px 0 0;color:var(--soft);font-size:13px}
+@media (max-width:640px){
+  main{padding:48px 16px 72px}
+  h1{font-size:34px}
+  .lead{font-size:18px}
+  .log td:nth-child(2){width:auto}
+  .log tr{display:grid;grid-template-columns:80px 1fr;border-bottom:1px solid var(--rule);padding:10px 0}
+  .log td{border:0;padding:0}
+  .log td:nth-child(3){grid-column:2;color:var(--soft)}
+}
+</style>
+</head>
+<body>
+<main>
+
+<h1>김강현</h1>
+<p class="lead">풀스택 엔지니어입니다. 프론트엔드로 시작해서 지금은 백엔드와 서버까지 직접 다룹니다. 지금은 오앤디랩에서 기업 세금 환급 서비스 루트북을 만들고 있습니다.</p>
+
+<h2>일한 곳</h2>
+
+<div class="job">
+  <h3>오앤디랩, 루트북</h3>
+  <p class="when">2026년 7월 ~ 지금</p>
+  <p>기업이 더 낸 세금을 경정청구로 돌려받게 해 주는 서비스입니다. 홈택스, 은행, 카드사에서 자료를 가져오는 조회기부터 백엔드와 웹까지 만들고 있습니다.</p>
+
+  <div class="case">
+    <h4>환급 진단 한 번에 5분 30초</h4>
+    <p class="q">재 보니 부가세 115초, 법인세 215초였고, 법인세 쪽은 서식 65장을 장당 2.4초씩 받느라 156초를 쓰고 있었습니다. 그런데 판정에 실제로 읽는 서식은 세 장뿐이었습니다. 진단 대부분은 신청으로 이어지지 않으니 미리 받아 두는 건 버리는 시간이었습니다.</p>
+    <p>판정용 3종과 탐지용 3종만 받고 나머지는 신청이 들어왔을 때 받게 바꿨습니다. 이때 안 받은 서식을 "미제출"로 처리하던 코드가 있어서, 그대로 뒀으면 "이 신고는 공제를 신청하지 않았다"는 거짓 판정이 나올 뻔했습니다. 받음, 있지만 안 받음, 애초에 없음 세 갈래로 나눴습니다. 같은 회사로 244초에서 123초가 됐습니다.</p>
+  </div>
+
+  <div class="case">
+    <h4>은행 인증서 로그인 33초</h4>
+    <p class="q">서명창과 보안 키패드를 고정 시간만큼 기다리고 있었고, 로그인 페이지의 보안 모듈이 준비되기 전에 누르면 서명창이 아예 안 떴습니다.</p>
+    <p>고정 대기를 화면 변화 감지로 바꾸고, 쉬는 워커가 로그인 페이지를 미리 열어 두게 했습니다. 11초가 됐습니다. 은행 세션이 8~16분 방치하면 끊기는 것도 실측으로 찾아서, 끊기면 자동으로 다시 로그인하게 했습니다.</p>
+  </div>
+
+  <div class="case">
+    <h4>누가 고객사 원본을 받아갔는지 답할 수 없었음</h4>
+    <p class="q">접근은 막고 있었지만 기록은 안 남겼습니다. 회계법인 직원이 어느 고객사의 홈택스 원본을 언제 몇 건 받아갔는지 물어도 답이 없었습니다.</p>
+    <p>모든 쓰기는 DB 트리거로, 읽기는 요청 단위로 남겼습니다. 이 DB는 읽기가 쓰기의 36배라 쿼리마다 남기면 감사 로그가 본업보다 커지기 때문입니다.</p>
+  </div>
+
+  <div class="case">
+    <h4>운영 DB 백업이 하나도 없었음</h4>
+    <p class="q">cron도, 덤프 파일도 없었습니다.</p>
+    <p>30분마다 서버와 오브젝트 스토리지 두 곳에 백업하고, 받은 백업을 격리 컨테이너에 복원해서 행 수가 운영과 같은지 확인했습니다. 알림을 붙이다 보니 Slack 웹훅이 예시 값 그대로라 컨테이너 다운이나 디스크 알림이 한 번도 안 가고 있던 것도 찾아서 고쳤습니다.</p>
+  </div>
+</div>
+
+<div class="job">
+  <h3>더빌딩솔루션</h3>
+  <p class="when">2026년 1월 ~ 7월</p>
+  <p>임대관리 SaaS를 3인 팀에서 만들었습니다. 온보딩 없이 들어가서 청구, 정산, 전자계약, 입주민 포털까지 11개 영역을 맡았습니다.</p>
+
+  <div class="case">
+    <h4>계약마다 외부 전자계약 수수료</h4>
+    <p class="q">외부 전자계약 서비스를 써서 건당 3천~1만 원이 나가고 있었고, 가계약, 전자계약, 입주, 퇴실 정산이 서로 이어지지 않아 단계마다 손으로 옮겨야 했습니다.</p>
+    <p>전자계약을 직접 만들었습니다. 임대인, 중개사, 임차인 순서로 서명하고 문자로 본인 확인을 합니다. 가계약에서 버튼 하나로 전자계약을 만들고, 퇴실 정산까지 한 흐름으로 이었습니다.</p>
+  </div>
+
+  <div class="case">
+    <h4>돈이 틀리게 나갈 수 있던 곳</h4>
+    <p class="q">은행 거래 내역을 지우면 입금 기록까지 같이 사라지는 구조였고, 연체 판정 기준이 화면마다 달라 연체가 아닌 입주자에게 연체 알림이 갈 수 있었습니다.</p>
+    <p>거래를 지워도 입금 기록은 남게 하고, 연체 기준을 하나로 맞췄습니다. 청구서 금액 계산 오류도 같이 고쳤습니다.</p>
+  </div>
+
+  <div class="case">
+    <h4>로그인 없이 열려 있던 API</h4>
+    <p class="q">API 7개가 인증 없이 열려 있었고, 로그인 페이지는 외부 주소로 리다이렉트시킬 수 있었습니다.</p>
+    <p>인증을 걸고 리다이렉트 대상을 막았습니다. 흩어진 fetch와 axios 호출을 하나의 클라이언트로 모아 토큰이 만료되면 자동으로 로그아웃되게 했습니다.</p>
+  </div>
+</div>
+
+<div class="job">
+  <h3>주식회사 랜딩</h3>
+  <p class="when">2025년 5월 ~ 2026년 1월</p>
+  <div class="case">
+    <h4>3D 인테리어 프리뷰가 모바일에서 버벅임</h4>
+    <p class="q">고급스럽게 보이려고 넣은 조명, 그림자, 유리와 거울 반사 때문에 GPU 점유율이 80%대까지 올라갔습니다.</p>
+    <p>광원 수를 줄이고 그림자를 단순화해 40%대로 낮췄고, 모바일에서도 60fps가 나옵니다.</p>
+  </div>
+  <div class="case">
+    <h4>RimoAI</h4>
+    <p>인테리어 업체가 고객과 견적을 잡을 때 초안 이미지를 빨리 보여 주는 플랫폼입니다. 팀 환경변수를 공유하고 맞추는 일을 모노레포 안의 자체 CLI로 자동화했고, GitHub Actions와 Docker로 배포를 맞췄습니다.</p>
+  </div>
+  <div class="case">
+    <h4>Travel-drug.com</h4>
+    <p>여행 갈 때 이 약을 그 나라에 가져가도 되는지 알기 어렵다는 데서 시작했습니다. 공공데이터의 의약품 목록과 미국 FDA 규제 물질을 합쳐 질문과 답변 페이지를 만들고, 검색과 챗봇을 붙였습니다.</p>
+  </div>
+</div>
+
+<div class="job">
+  <h3>유어라운드</h3>
+  <p class="when">2024년 10월 ~ 11월, 인턴</p>
+  <p>프론트엔드 인턴으로 Genbler 웹 페이지를 만들었습니다.</p>
+</div>
+
+<h2>지금 돌리고 있는 것</h2>
+
+<figure>
+  <img src="list/images/three-slicer/cover.png" alt="Three Slicer에서 배 모형에 나무 모양 서포트를 생성한 화면">
+  <figcaption><b><a href="https://slicer.kimgh06.com">Three Slicer</a></b><br>
+  3D 프린터를 쓰려면 수백 MB짜리 슬라이서를 설치해야 하고, 출력 견적을 내는 서비스는 서버에서 슬라이서를 돌려야 했습니다. 그런데 슬라이서 커널은 순수 계산이라 C++로 짜여 있어서 데스크톱에 묶여 있었을 뿐입니다. OrcaSlicer 커널을 WebAssembly로 옮겨 브라우저에서 G-code까지 뽑고, npm 패키지로 냈습니다. 커널을 고칠 때마다 G-code가 1바이트라도 달라지면 실패하는 검사를 두고, 원점에서 먼 모델의 채움이 조용히 사라지던 버그는 위치를 옮겨도 결과가 같아야 한다는 검사로 잡았습니다. <a href="https://github.com/kimgh06/Three_Slicer">코드</a></figcaption>
+</figure>
+
+<figure>
+  <img src="list/images/thask/app.png" alt="Thask에서 프로젝트 의존성 그래프를 편집하는 화면">
+  <figcaption><b><a href="https://thask.kimgh06.com">Thask</a></b><br>
+  스프레드시트는 맥락을 잃고, 이슈 트래커는 무엇이 무엇에 걸려 있는지 숨깁니다. 그래서 Claude Code나 Cursor는 "이 함수 바꾸면 뭐가 터지지?"에 답하지 못합니다. 기능, 태스크, 버그의 의존성을 그래프로 그리고 MCP로 열어 둬서 에이전트가 영향 범위를 직접 찾게 했습니다. Thask 자체도 Thask 그래프로 관리합니다. <a href="https://github.com/kimgh06/Thask">코드</a></figcaption>
+</figure>
+
+<figure>
+  <img src="list/images/rosarium/desktop-practice.png" alt="Rosarium에서 라틴어 주님의 기도를 타이핑하는 화면">
+  <figcaption><b><a href="https://rosarium.kimgh06.com">Rosarium</a></b><br>
+  라틴어 묵주기도문을 한 구절씩 타이핑하며 익히는 도구입니다. 기도 앱의 고요함과 타자 연습 도구의 정확함을 같이 가져가는 걸 목표로 했습니다. <a href="https://github.com/kimgh06/typing_rosary">코드</a></figcaption>
+</figure>
+
+<p>노트북으로는 HuggingFace 모델을 돌릴 수가 없고 클라우드는 비싸서, 중고 3090 두 장으로 서버를 직접 맞췄습니다. 남는 자원으로 사이드 프로젝트 배포 서버도 겸하고 있습니다.</p>
+
+<h2>지난 작업</h2>
+
+<table class="log">
+  <tr><td>2026.03</td><td><a href="https://weather.kimgh06.com">날씨 앱</a></td><td>채용 과제. 행정구역 이름으로 날씨를 찾습니다.</td></tr>
+  <tr><td>2025.12</td><td><a href="https://github.com/kimgh06/falcare">Falcare</a></td><td>웹 레이싱 게임. 차가 360도 돌면 따라가던 카메라가 반대로 휙 돌아가서 각도를 정규화했고, 벽이나 경사면에 닿아도 높이를 유지하도록 충돌면의 법선으로 띄웠습니다.</td></tr>
+  <tr><td>2025.07</td><td><a href="https://github.com/kimgh06/vworld-react-3d">vworld-react-3d</a></td><td>국토부 VWorld 3D 지도를 React에서 컴포넌트 하나로 쓸 수 있게 감싼 패키지.</td></tr>
+  <tr><td>2024.11</td><td><a href="https://gamultong.github.io/gamulpung-client/">가물펑</a></td><td>끝없이 넓어지는 맵에서 여럿이 하는 지뢰찾기. 기획과 프론트를 맡아 교내 베타 테스트에서 트래픽 38,709건을 받았습니다. 타일이 많아지면 이동 경로가 밀려 보였는데, 경로가 아니라 타일을 fillRect로 하나씩 그리는 게 원인이었습니다. path를 캐싱해 렌더링 시간을 1/3로 줄였고, 이후 엔진을 Pixi.js로 바꿨습니다.</td></tr>
+  <tr><td>2023.09</td><td><a href="https://github.com/kody-gsm/Insam_Front">Insam</a></td><td>방울토마토 화분 관리가 힘든데, 개인용 스마트팜은 10만 원대면서 일반 화분보다 못하고 자사 모종만 써야 했습니다. 7만 원대를 목표로 잡고, 웹에서 온습도와 물 양을 보고 조작하게 했습니다. 팀 프로젝트.</td></tr>
+  <tr><td>2023.09</td><td><a href="https://github.com/kimgh06/Freetify">Freetify</a></td><td>한국에서 미국 스포티파이 광고 요금제를 쓰면 재로그인이 반복되고 곡을 고를 수 없었습니다. 메타데이터는 Spotify, 음원은 YouTube에서 가져와 만들었지만 YouTube 정책이 바뀌어 접었습니다.</td></tr>
+</table>
+
+<h2>그 외</h2>
+<ul>
+  <li>2023 SW 마이스터고 연합 해커톤 기업상 (인터오리진 I&amp;C)</li>
+  <li>전기기능사 (2026), 정보처리산업기사 (2023), 정보기기운용기능사 (2022)</li>
+</ul>
+
+<footer>
+  <div class="foot">
+    <div>
+      <svg class="sign" viewBox="30 30 745 565" role="img" aria-label="김강현 사인"><g fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="square"><path d="M47 45H235L47 233H757"/><path d="M408 50L47 410H208L383 238"/><path d="M740 50L380 410H540L715 238"/><path d="M640 57L120 578H400"/><path d="M332 297H400M280 350H345"/></g></svg>
+      <p class="who">김강현</p>
+      <p class="soft">채용이나 협업 제안은 메일로 주세요.</p>
+    </div>
+    <dl class="contact">
+      <dt>메일</dt><dd><a href="mailto:kkh061101@naver.com">kkh061101@naver.com</a></dd>
+      <dt>GitHub</dt><dd><a href="https://github.com/kimgh06">github.com/kimgh06</a></dd>
+      <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/kimgh06/">linkedin.com/in/kimgh06</a></dd>
+      <dt>블로그</dt><dd><a href="https://velog.io/@kimgh06/posts">velog.io/@kimgh06</a></dd>
+      <dt>디스코드</dt><dd>kimgh06</dd>
+    </dl>
+  </div>
+  <p class="fine">마지막 수정 <time id="updated"></time></p>
+</footer>
+
+</main>
+<script>
+// ponytail: nginx Last-Modified 헤더 = 파일 수정 시각. 헤더가 없으면 브라우저가 현재 시각을 주므로 그때는 숨김
+(() => {
+  const t = new Date(document.lastModified), el = document.getElementById('updated');
+  if (isNaN(t) || Date.now() - t < 2000) { el.parentElement.hidden = true; return; }
+  const p = n => String(n).padStart(2, '0');
+  el.dateTime = t.toISOString();
+  el.textContent = `${t.getFullYear()}.${p(t.getMonth()+1)}.${p(t.getDate())} ${p(t.getHours())}:${p(t.getMinutes())}`;
+})();
+</script>
+</body>
+</html>
